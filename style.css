@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather' , serif;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    width: 25%;
+    font-size: 90px;
+    color: #19376D;
+    margin: 50px  auto 0 auto;
+}
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #088395;
+    font-size: 3rem;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Lora', serif;
+    color: #E11299;
+    font-size: 30px;
+    font-weight: lighter;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border-style: dotted none none none ;
+    border-color: #BA90C6; 
+    width: 10%;
+    border-width: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.top-container{
+    background-image: url(sunrise.jpg);
+    background-size: cover;
+    position: relative ;
+    padding-top: 190px;
+}
+.middle-container{
+    background-image: linear-gradient(to bottom right,lightblue ,lightpink);
+    background-size: cover;
+    background-position: 100%;
+    padding-top: 50px;
+
+}
+.bottom-container{
+    background-color: #8E3200;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 450px;
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+}
+.skillsrow {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.web {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.figma {
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+}
+.btn {
+    background: #e61919;
+    background-image: -webkit-linear-gradient(top, #e61919, #000000);
+    background-image: -moz-linear-gradient(top, #e61919, #000000);
+    background-image: -ms-linear-gradient(top, #e61919, #000000);
+    background-image: -o-linear-gradient(top, #e61919, #000000);
+    background-image: linear-gradient(to bottom, #e61919, #000000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 38px;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+.contactme {
+    
+    margin-bottom: 50px;
+}
+.footer {
+    color:#D7A86E;
+    margin: 50px 30px auto 30px;
+    text-decoration: none;
+}
+.copyright {
+    color:#ffffff;
+    font-size:  10px;
+    margin-top: 90px;
+}
